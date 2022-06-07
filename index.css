@@ -37,11 +37,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
+    grid-template-areas:
+    "project project"
+    "skills skills";
   }
+
+
 
 .skills {
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 1fr;
 }
 
 .footer {
