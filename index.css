@@ -39,6 +39,10 @@
     gap: 25px;
   }
 
+.skills {
+    display: grid;
+    grid-template-columns: 2;
+}
 
 .footer {
     padding-top: 5px;
